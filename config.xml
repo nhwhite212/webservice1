@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="edu.nyu.stern.tictacjq" version="0.0.8" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>testmobile</name>
+    <description>
+A simple program to get data from a mysql data base 
+    </description>
+    <author email="nwhite@stern.nyu.edu" href="http://www.stern.nyu.edu/~nwhite">
+        Norman White
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+</widget>
