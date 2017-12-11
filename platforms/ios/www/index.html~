@@ -8,7 +8,7 @@
 <script type="text/javascript">
 
 $(document).ready(function() {
-     $.getJSON("http://websys3.stern.nyu.edu/~nwhite/websys/mobileservice/www/testwebservice.php", function(data){
+     $.getJSON("http://websys3.stern.nyu.edu/~nwhite/websys/webservice/www/testwebservice.php", function(data){
 
                         console.log(data);		
                             $.each(data['posts'], function(index, value) {
@@ -30,16 +30,12 @@ $(document).ready(function() {
 <div data-role="page"  >
 	<div data-role="header">
 		<h1>All Research Computing Posts</h1>
-        <h2> Posts are dynamically pulled from a WordPress data base </h2>
 	</div>
 	<div data-role="content" id="page">	
 		
 	</div>
 	<div data-role="footer">
-    <br>
-    <hr>
-There are no more Posts 
-<hr>
+
 	</div>
 </div>
 
